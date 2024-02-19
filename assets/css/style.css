@@ -1,4 +1,4 @@
-/* background style settings for header */
+/* style settings for header */
 .header {
     background-color: url('assets/images/soccerimage10.jpg');
     background-size: cover;
@@ -6,7 +6,13 @@
     text-align: center;
     color: orange;
 }
+/* style settings for welcome message */
 .welcome {
     text-align: center;
     color: black
+}
+/* style settings for images */
+.players {
+    width: 33%;
+  border: 1px solid orange;
 }
