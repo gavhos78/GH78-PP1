@@ -1,10 +1,12 @@
 /* style settings for div container */
+/* taken from w3schools */
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
 /* style settings for header */
+/* taken from w3schools */
 .header {
     background-color: url('assets/images/soccerimage10.jpg');
     background-size: cover;
@@ -20,8 +22,43 @@
 }
 
 /* style settings for images */
+/* taken from w3schools */
 .players {
-    width: 33%;
-    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+}
 
+/* style settings for header */
+/* taken from w3schools */
+header {
+    background-color: #000000;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* styles settings for the nav ul */
+/* taken from w3schools*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right
+}
+
+/* styles settings for the nav ul li */
+/* taken from w3schools*/
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* styles settings for footer */
+/* taken from w3schools*/
+footer {
+    background-color: #000000;
+    color: orange;
+    padding: 10px 0;
+    text-align: center;
 }
