@@ -3,6 +3,8 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* style settings for header */
@@ -14,15 +16,6 @@
     text-align: center;
     color: orange;
     font-family: 'Courier New', Courier, monospace;
-    font-size: inherit;
-}
-
-/* style settings for welcome message */
-.welcome {
-    text-align: center;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: inherit;
 }
 
 /* style settings for images */
@@ -37,6 +30,11 @@
 .image-container img {
     width: 33.33%;
     height: auto;
+}
+
+.main-content {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* style settings for header */
@@ -77,6 +75,7 @@ footer {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: inherit;
+    white-space: nowrap;
     display: flex;
     flex-wrap: wrap;
 }
